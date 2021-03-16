@@ -1,0 +1,25 @@
+* {
+    margin: 50px;}
+header {
+    width: 50%;
+    height: 50px;
+    background-color: darkblue;
+}
+
+section {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+article {
+    width: 80%;
+    height: 80px;
+    background-color: deeppink;
+}
+
+aside, footer {
+    width: 80%;
+    height: 80px;
+    background-color: chartreuse;
+}
