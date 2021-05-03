@@ -23,3 +23,8 @@ img {
      font-size: 25px;
      font-family: "Comic Sans MS";
  }
+ h1 {
+     text-align: left;
+     color: blue;
+     border: 5px groove darkblue;
+ }
