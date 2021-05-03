@@ -18,3 +18,8 @@ img {
 }.parejauno {
     border: 20px dotted darkorchid;
 }
+ /*different type of font and size*/
+ html {
+     font-size: 25px;
+     font-family: "Comic Sans MS";
+ }
