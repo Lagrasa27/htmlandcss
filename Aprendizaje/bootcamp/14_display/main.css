@@ -6,7 +6,7 @@ div {
     background-image: url("../01-essential/pareja.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
+    display: inline-block;
 }
 
 img {
