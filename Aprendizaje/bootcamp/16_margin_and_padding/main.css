@@ -7,9 +7,11 @@ div {
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
 }
-
+.time{
+    color: chartreuse;
+}
 img {
     border: 20px dashed darkorchid;
     border-radius: 75%;
