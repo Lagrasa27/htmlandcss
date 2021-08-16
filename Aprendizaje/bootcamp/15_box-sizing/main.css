@@ -9,6 +9,7 @@ div {
 }
 .kl {
     box-sizing: border-box;
+/*    /*    box-sizing  most of the time is use with the put the width  measurement  total in the padding, border, margin meaning if you put 200px width is the going to the 200px including the padding, border and margin. */
 }
 
 img {

@@ -1,0 +1,12 @@
+div{
+    width: 350px;
+    height: 200px;
+    background-color: crimson;
+    border-radius: 60px;
+    border: 20px groove deeppink;
+    background-image: url("../../01-essential/pareja.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
