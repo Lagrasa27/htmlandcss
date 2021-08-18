@@ -1,0 +1,23 @@
+body {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+/* order matters*/
+/*Link visited Hover Active*/
+/*LVHA*/
+
+a:link{
+    color: darkcyan;
+
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+a:active{
+    color: plum;
+}

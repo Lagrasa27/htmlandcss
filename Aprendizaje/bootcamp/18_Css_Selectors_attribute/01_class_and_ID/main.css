@@ -1,0 +1,12 @@
+.coding{
+    border: groove plum;
+    font-size: 36px;
+    color: darkblue;
+}
+#monumental{
+    border: dot-dot-dash darkgreen;
+    border-radius: 30px;
+    font-family: "Calibri Light";
+    color: brown;
+    font-size: 30px;
+}
