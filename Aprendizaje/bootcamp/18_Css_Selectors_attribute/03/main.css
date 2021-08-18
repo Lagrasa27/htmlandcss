@@ -1,0 +1,9 @@
+body {
+    font-size: 50px;
+    text-align: center;
+}
+[target=_blank]{
+    color: blueviolet;
+}
+/*para poder darle color al target blank tiene que ser como esta
+ahi arriba*/

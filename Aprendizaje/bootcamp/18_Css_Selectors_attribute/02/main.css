@@ -1,0 +1,7 @@
+[src] {
+    border: 10px dashed blue;
+}
+[href] {
+    border: 5px solid deeppink;
+}
+/*para poder darle color al src y al href tienes que esta como esta ahi arriba*/
