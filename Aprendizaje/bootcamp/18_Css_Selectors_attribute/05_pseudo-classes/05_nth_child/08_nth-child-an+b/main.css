@@ -1,0 +1,7 @@
+/*la formula de nth child and+b el numero donde quieres que comienze va a la derecha donde esta la b y el numero de la izquiera va cada que tiempo quieres que se repita ejemplo cada 3 veces cada 4 veces cada 7 veces etc...*/
+body{
+    font-size: 36px;
+}
+li:nth-child(8n+5){
+    color: red;
+}

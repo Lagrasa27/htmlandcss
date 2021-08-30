@@ -1,0 +1,4 @@
+/*the only child will be highlighted as the only one in the div or the box as the example shows down here just one and that's it  */
+article:only-child{
+    color: red;
+}
