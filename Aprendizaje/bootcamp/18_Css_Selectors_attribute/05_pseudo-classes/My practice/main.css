@@ -1,0 +1,22 @@
+body{
+    font-family: "Bell MT";
+    font-size: 20px;
+    margin: 20px;
+    width:  40%;
+}
+
+input:focus{
+    border: solid 3px red;
+}
+
+img{
+    border: 3px dot-dash;
+    border-radius: 30px;
+    background-image: url("../../../01-essential/pareja.jpg");
+background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+
+}
