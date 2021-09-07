@@ -1,0 +1,24 @@
+* {
+    border: 2px groove deeppink;
+}
+
+html{
+    border: 3px dot-dash darkblue;
+    margin: 30px;
+}
+
+body {
+    border: 4px solid red;
+    margin: 20px;
+}
+div {
+    margin: 0 auto;
+    display: block;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border: 4px groove chocolate;
+    display: block;
+    margin: 0 auto;
+}

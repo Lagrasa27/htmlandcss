@@ -20,3 +20,6 @@ background-size: cover;
     display: inline-block;
 
 }
+li:nth-child(odd){
+    color: blue;
+}
