@@ -1,0 +1,30 @@
+html {
+    background-color: blue;
+}
+
+img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 20px groove gold;
+    display: block;
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 40%;
+
+}
+
+body{
+    width: 60%;
+    background-color: mediumseagreen;
+border: 8px solid black;
+    margin: 0 auto ;
+font-size: 20px;
+
+}
+
+#primary {
+    color: blue;
+}
+#secondary {
+    color: red;
+}
