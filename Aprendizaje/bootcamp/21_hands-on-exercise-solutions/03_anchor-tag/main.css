@@ -1,0 +1,10 @@
+[target]{
+    border: 2px solid red;
+}
+
+a{
+    border: dashed blue;
+}
+#manchas{
+    border: 3px dotted gold;
+}
