@@ -1,0 +1,20 @@
+p{
+    border: 1px solid green;
+    font-size: 20px;
+}
+
+.second{
+    color: blue;
+}
+
+.third {
+    color: red;
+}
+
+#first {
+    color: firebrick;
+}
+/*css specificity
+-element value of 1 point
+ class selector value of 10 point
+ ID value of 100 point*/
