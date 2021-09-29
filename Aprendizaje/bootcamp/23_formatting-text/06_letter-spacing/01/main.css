@@ -1,0 +1,32 @@
+p{
+    letter-spacing: 10px;
+}
+h1{
+    font-weight: lighter;
+}
+
+h1:hover{
+    color: red;
+    font-weight: lighter;
+
+}
+article{
+    border: solid   purple;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+div{
+    border: 1rem groove blue;
+    padding: 3rem ;
+}
+
+img{
+    background-repeat: no-repeat;
+    width:15rem;
+    height: 17rem;
+    display: block;
+    margin: 0 auto;
+    padding: 3rem;
+
+}
