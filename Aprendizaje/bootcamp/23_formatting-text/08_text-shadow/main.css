@@ -1,0 +1,13 @@
+p{
+    /*in text shadow there are 3 value that you must set
+    x y and the blurry and if you want in the oppesite side use the (-) minus sign*/
+    text-align: center;
+    text-shadow: 5px 5px 15px crimson;
+    font-size: 15rem;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
