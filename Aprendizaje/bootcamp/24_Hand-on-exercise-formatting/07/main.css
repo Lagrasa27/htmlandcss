@@ -1,0 +1,13 @@
+p{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: gold;
+    text-decoration: underline;
+}
