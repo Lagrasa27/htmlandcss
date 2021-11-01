@@ -1,0 +1,38 @@
+header{
+    border: solid   2px gold;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+a{
+text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+
+}
+article.main {
+    background-color: grey;
+    padding: 1px;
+    margin-top: 10px;
+    max-width: 900px;
+    border: solid 2px black;
+    text-align: center;
+    display: inline-block;
+
+
+}
+h2, .secondstory{
+    margin: 3px;
+    padding: 5px;
+
+
+}
+.secondstory{
+    background: white;
+    padding: 5px;
+
+}
+
+
+

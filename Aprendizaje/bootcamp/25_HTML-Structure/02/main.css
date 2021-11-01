@@ -1,0 +1,30 @@
+article,.main{
+    max-width: 800px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+article.mayor{
+    padding: 5px;
+    margin: 5px;
+}
+.mayor,p {
+    background-color: white;
+    text-align: center;
+}
+
+
+img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+figcaption{
+    text-align: center;
+}
