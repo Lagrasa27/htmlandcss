@@ -1,0 +1,25 @@
+*{
+    border: 2px dashed red;
+}
+
+div{
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid   black;
+}
+
+.uno{
+    background-color: green;
+}
+.dos{
+    background-color: #FFD700;
+}
+.tres{
+    background-color: purple;
+}
+.cuatro{
+    background-color: deepskyblue;
+}
+.cinco{
+    background-color: firebrick;
+}

@@ -1,0 +1,53 @@
+.first{
+    width: 450px;
+    height: 150px;
+    border: 1px solid   blue;
+    padding: 30px;
+    box-sizing: border-box;
+}
+/*box-sizing border box*/
+
+.main{
+    width: 450px;
+    height: 150px;
+    border: 1px solid   red;
+}
+
+.uno{
+    width: 450px;
+    height: 150px;
+    padding: 30px;
+    border: 1px solid   green;
+    box-sizing: border-box;
+
+}
+/*position relative you can move it as you wish  even putting inside of another box meaning div. relative etc... */
+.lol{
+    position: relative;
+    border: 1px solid black;
+    top: -50px;
+}
+
+.dos{
+    position: relative;
+    top: -22px;
+    left: 20px;
+    width: 300px;
+    border: 1px solid purple;
+
+}
+
+.papa{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    border: 1px solid   deepskyblue;
+
+}
+
+.mon{
+    position: absolute;
+    border: 1px solid gold;
+    width: 100px;
+}
