@@ -1,0 +1,14 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border: 2px solid red;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,28 @@
+li{
+    border-radius: 30px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+
+}
+
+a{
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 29px;
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+
+ul{
+    list-style: none;
+}
+
+li:hover{
+    background-color: gold;
+}
+
+body{
+    margin: 0 auto;
+}
