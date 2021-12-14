@@ -1,0 +1,14 @@
+div{
+    border: 1px solid   black;
+    height: 100px;
+    width: 150px;
+    margin: 1rem;
+    background-color: deeppink;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
