@@ -1,0 +1,17 @@
+div{
+    /*in order for stretch to worked you can not have a height set   and if it is columm you must not set a witdh*/
+    border: 2px solid black;
+    height: 150px;
+    /*width: 150px;*/
+    background-color: lightgrey;
+    text-align: center;
+    margin: 1rem;
+}
+
+body{
+    border: 2px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: stretch;
+    height: 800px;
+}

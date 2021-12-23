@@ -1,0 +1,16 @@
+div{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 1rem;
+}
+
+body{
+    border: 2px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    height: 800px;
+}

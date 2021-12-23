@@ -1,0 +1,28 @@
+div{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px dashed green;
+    background-color: #FFD700;
+    margin: 1rem;
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: baseline;
+    border: 1px solid   black;
+    height: 800px;
+}
+
+#start{
+    align-items: flex-start;
+
+}
+#center{
+    align-items: center;
+}
+
+#end{
+    align-items: end;
+}
