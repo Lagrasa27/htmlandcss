@@ -1,0 +1,45 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid   brown;
+    background-color: lightgrey;
+    margin: 5px;
+    order: 5;
+
+}
+
+body{
+    height: 1000px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.mm{
+    order: 1;
+}
+
+.gg{
+    order: 2;
+}
+
+.yy{
+    /*order: 3;*/
+}
+
+.tt{
+    order: 3;
+}
+
+.hh{
+    /*order: 5;*/
+}
+
+.kk{
+    order: 4;
+}
+
+.ll{
+    /*order: 7;*/
+}
+

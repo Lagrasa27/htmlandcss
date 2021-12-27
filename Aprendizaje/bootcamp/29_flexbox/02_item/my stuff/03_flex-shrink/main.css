@@ -1,0 +1,21 @@
+div{
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    background-color: lightgrey;
+
+}
+
+body{
+    display: flex;
+    height: 500px;
+
+}
+
+.jj{
+    flex-shrink: 1;
+}
+
+.ll{
+    flex-shrink: 2;
+}
