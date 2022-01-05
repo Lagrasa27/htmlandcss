@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 20px auto;
+}
+
+nav{
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+
+
+li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav{
+    border: solid 2px black;
+}
+
+
