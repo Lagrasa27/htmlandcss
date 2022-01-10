@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid red;
+    padding: 0;
+    margin: 0;
+}
+
+.o1, .o2, .o3{
+    width: 100%;
+    min-height: 150px;
+}

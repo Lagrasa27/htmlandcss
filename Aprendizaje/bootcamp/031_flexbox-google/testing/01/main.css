@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    border: 2px solid purple;
+    margin: 0 auto;
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6{
+    width: 100%;
+    min-height: 100px ;
+}
