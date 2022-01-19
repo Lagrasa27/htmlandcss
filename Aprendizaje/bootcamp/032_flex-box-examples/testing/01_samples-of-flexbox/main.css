@@ -1,0 +1,23 @@
+html, body, ol{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+ol{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+a{
+    padding: 20px ;
+
+}
+
+nav{
+    background: #b4d2f7;
+    padding: 10px;
+}

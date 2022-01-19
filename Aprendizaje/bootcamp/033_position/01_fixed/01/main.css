@@ -1,0 +1,21 @@
+.one{
+    border: 3px dashed black;
+    height: 1500px;
+    width: 600px;
+    background-color: #BCD2DA;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.two{
+    position: fixed;
+    top: 600px;
+    left: 50px;
+    height: 70px;
+    width: 70px;
+    background: #FFD700;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+}
