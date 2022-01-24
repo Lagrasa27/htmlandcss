@@ -1,0 +1,22 @@
+div, img{
+    border: 3px solid black;
+    margin: 20px;
+}
+
+#left{
+    float: left;
+
+}
+
+#right{
+    float: right;
+}
+
+
+
+div{
+    overflow: auto;
+}
+
+
+/*float siempre se tiene que usar dentro de un contenedor y las opciones son o izquierda o derecha y si la image que esta en float es mas grande de donde estar el contenedor entonces se esa ese selector que se llama overflow auto para que automaticamente la imagen que este en float este dentro del contenedor*/

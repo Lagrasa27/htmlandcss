@@ -1,0 +1,38 @@
+html, body header, section{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    border: 3px solid blue;
+}
+
+body{
+    border: 3px solid purple;
+    width: 60%;
+    position: relative;
+}
+header{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: chocolate;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+section{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background:crimson ;
+    right: 40px;
+    top: 120px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

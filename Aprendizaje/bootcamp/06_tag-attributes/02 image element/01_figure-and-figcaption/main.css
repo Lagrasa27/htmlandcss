@@ -1,0 +1,15 @@
+figcaption{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+figure{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto ;
+    height: 280px;
+    width: 190px;
+}

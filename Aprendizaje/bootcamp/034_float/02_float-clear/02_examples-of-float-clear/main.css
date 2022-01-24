@@ -1,0 +1,23 @@
+#float1{
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    border: 3px solid gold;
+    float: left;
+
+}
+#uno{
+    clear: left;
+}
+
+#float2{
+    height: 120px;
+    width: 100px;
+    background-color: yellow;
+    border: 3px solid gold;
+    float: right;
+}
+
+#dos{
+    clear: right;
+}
