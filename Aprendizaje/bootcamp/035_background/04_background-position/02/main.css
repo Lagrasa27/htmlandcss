@@ -1,0 +1,12 @@
+div{
+    width: 600px;
+    height: 600px;
+    border: 10px ridge gold;
+    background-image: url("pareja.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+

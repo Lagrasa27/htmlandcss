@@ -1,0 +1,43 @@
+html, body, header, div, section, footer{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px;
+}
+
+header, div, section, footer{
+    border-radius: 15px
+}
+
+header{
+    background-color: #0062d2;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+div{
+    float: left;
+    width: 23%;
+    height: 160px;
+    background-color: #d29ecf;
+    margin-bottom: 10px;
+}
+
+section{
+    float: right;
+    width: 75%;
+    height: 160px;
+    background-color: #ff6805;
+    margin-bottom: 10px;
+
+}
+
+footer{
+    height: 40px;
+    clear: right;
+    background-color: #9dbb88;
+}

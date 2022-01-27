@@ -1,0 +1,24 @@
+section, div{
+    border: 30px solid black;
+
+}
+
+div{
+    padding: 40px ;
+    background-color: #136de9;
+    background-image: url("pareja.jpg");
+    height: 700px;
+    width: 700px;
+    /*exmaples of origin border box paddin and content box*/
+    /*background-origin: border-box;*/
+    /*background-origin: padding-box;*/
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+}
+
+section{
+    padding: 40px ;
+    display: flex;
+    justify-content: center;
+}

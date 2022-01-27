@@ -1,0 +1,11 @@
+div{
+    background-image: url("pareja.jpg");
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 800px;
+    background-size: cover;
+    border: 10px gold groove;
+}
+
+
+

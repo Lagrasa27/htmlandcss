@@ -1,0 +1,22 @@
+body{
+    background-image: url("pareja.jpg");
+    background-repeat: repeat-x;
+    background-size: 180px 280px;
+}
+
+
+/*
+repeat:
+tile the image in both directions. This is the default value.
+
+repeat-x:
+tile the image horizontally
+
+repeat-y:
+tile the image vertically
+
+no-repeat:
+don't tile, just show the image once
+#
+
+*/

@@ -1,0 +1,24 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    border:0 ;
+}
+
+div, img{
+    border: 4px solid black;
+    overflow: auto;
+}
+
+img{
+    height: 250px;
+    width: 190px;
+    float: left;
+    margin: 10px;
+
+
+}
+
+
+div{
+    /*margin: 20px;*/
+}
