@@ -8,16 +8,17 @@ html,body, div{
 div{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     background-image: url("Landscape-fotoarte.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed ;
 
 }
 
 p{
     font-size: 10rem;
     color: #9d97c9;
-    text-align: center;
+    text-align: end;
 }
