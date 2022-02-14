@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 29.5%;
+    border: 2rem    groove skyblue;
+    margin: 0 auto;
+}
+
+img{
+    width:450px ;
+    height: 600px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
