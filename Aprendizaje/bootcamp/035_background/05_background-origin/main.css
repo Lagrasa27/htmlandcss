@@ -14,7 +14,7 @@ div{
     /*background-origin: padding-box;*/
     background-origin: content-box;
     background-repeat: no-repeat;
-    /*background-position: center;*/
+    background-position: center;
 }
 
 section{
@@ -22,3 +22,4 @@ section{
     display: flex;
     justify-content: center;
 }
+
