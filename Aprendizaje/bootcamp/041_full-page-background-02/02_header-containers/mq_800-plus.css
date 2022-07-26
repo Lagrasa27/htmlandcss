@@ -1,0 +1,15 @@
+#idx-atf1{
+    background-image: url("nature.webp");
+}
+
+#idx-atf1 > div {
+    height: 18vh;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    margin-top: .4rem;
+}
