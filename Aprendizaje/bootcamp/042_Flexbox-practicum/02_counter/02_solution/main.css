@@ -1,0 +1,73 @@
+html, body, div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 3vw;
+}
+
+#itf{
+    height: 100vh;
+    display: flex;
+    /* flex-direction; row*/
+    /*flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+#better{
+    height: 4.8rem;
+    width: 19.2rem;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    border-radius: 1rem;
+    border: 1px solid blue;
+
+}
+
+#metiendole1{
+    /* item    */
+    flex-grow: 1;
+    /*  container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  fomatting*/
+    border-right: 1px solid blue;
+    background-color: lightblue;
+    border-radius: 1rem 0 0 1rem;
+    cursor: pointer;
+}
+
+#metiendole2{
+    /* item*/
+    flex-grow: 2;
+    /*container    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#metiendole3{
+    /*item*/
+    flex-grow: 1;
+    /*container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*formarting*/
+    border-left: 1px solid blue;
+    background-color: lightblue;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+
+}
+
+#metiendole1:hover, #metiendole3:hover{
+    background-color: blue;
+}

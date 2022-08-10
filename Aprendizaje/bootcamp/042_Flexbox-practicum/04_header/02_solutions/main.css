@@ -1,0 +1,82 @@
+html,body,div,header,main,h1,nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1vw;
+    color: whitesmoke;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: grey;
+    border-bottom: 1px solid darkgray;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    margin-right: 10px;
+    background-color: inherit;
+    cursor: pointer;
+    border: 0;
+
+}
+
+
+.klk{
+    position: relative;
+    right: 35px;
+}
+
+button:hover{
+    background-color: lightgrey;
+}
+
+#center{
+    height: 50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(169, 169, 169, 0.87);
+    font-size: 10rem;
+    letter-spacing: .7rem;
+    text-transform: uppercase;
+
+}
