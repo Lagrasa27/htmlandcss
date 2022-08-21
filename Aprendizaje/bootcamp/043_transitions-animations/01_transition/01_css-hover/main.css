@@ -1,0 +1,31 @@
+html, div, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: blue;
+    color: yellow;
+    font-size: 2rem;
+
+}
+
+div:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+.transition{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}

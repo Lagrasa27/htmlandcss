@@ -1,0 +1,39 @@
+html, body, header, div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+
+}
+
+div:hover{
+    background-color: #0000FF;
+    color: red;
+}
+
+div{
+
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    text-align: center;
+
+}
+
+div{
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-out ;
+}
