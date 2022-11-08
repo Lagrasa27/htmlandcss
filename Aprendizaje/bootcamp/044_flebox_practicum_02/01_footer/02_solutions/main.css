@@ -1,0 +1,78 @@
+html,body,div,footer,span,button{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+
+}
+
+html{
+    font-size: 1vw;
+    color: grey;
+}
+
+#primero{
+    display: flex;
+    height: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 7rem;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+#segundo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 12rem;
+    border-top: 2px solid #86969C;
+}
+
+#tercero,#cuarto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    formaat*/
+    margin: 0 6rem;
+    font-size: 4rem;
+}
+
+span {
+    margin-left: 1.5rem;
+}
+
+
+button {
+    font-size: inherit;
+    border-radius: 4px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+#reset {
+    color: #4EBBE4;
+    background-color: white;
+}
+
+#save {
+    color: white;
+    background-color: #4EBBE4;
+    border: 1px solid #16A2D7;
+    margin-left: 1rem;
+}
+
+#cinco{
+    margin-right: 1.5rem;
+}
+

@@ -1,0 +1,38 @@
+/*
+animation-name: none
+animation-duration: 0s
+animation-timing-function: ease
+animation-delay: 0s
+animation-iteration-count: 1
+animation-direction: normal
+animation-fill-mode: none
+animation-play-state: running
+*/
+
+html {
+    font-size: 4vw;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes change-color {
+    0% { color: red}
+    100% {color: #0000FF}
+}
