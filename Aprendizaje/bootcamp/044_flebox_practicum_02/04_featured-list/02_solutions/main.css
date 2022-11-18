@@ -1,0 +1,46 @@
+html,body,div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#kinto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    border: 1px solid skyblue;
+    max-width: 65%;
+}
+
+
+
+.minto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid lightblue;
+}
+
+.minto:last-child{
+    border-bottom: transparent;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0 2rem;
+}

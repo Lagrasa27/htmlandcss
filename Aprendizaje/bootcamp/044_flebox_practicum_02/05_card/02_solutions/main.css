@@ -1,0 +1,53 @@
+html,main,div,button,h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mayor{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #BCD2DA;
+    width: 27%;
+
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+#bottom{
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-top: 2px solid  #BCD2DA;
+    margin-top: 1.6rem;
+    padding: 1.3rem;
+
+
+}
+
+h3 {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+

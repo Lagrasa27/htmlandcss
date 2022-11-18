@@ -1,0 +1,52 @@
+html,div,nav,body,span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 2rem;
+    color: #16A2D7;
+
+}
+
+#test1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    height: 100vh;
+    border-right: 3px solid lightgrey;
+
+}
+
+.test2, .test3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.muy{
+    padding-top: 2rem;
+}
+
+.mal{
+    padding-bottom: 2rem;
+}
+
+span{
+    padding-top: 15px;
+    height: 2rem ;
+    width: 9rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+span:hover{
+    background-color: lightgrey;
+}

@@ -1,0 +1,50 @@
+html,body,div,button,h1,h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    font-size: 5rem;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+h3{
+    /*display: flex;*/
+    font-size: 3rem;
+    color: lightgrey;
+    margin-bottom: 3rem;
+}
+
+button{
+    /*display: flex;*/
+    color: white;
+    background-color: #54ceff;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #16A2D7;
+
+}
