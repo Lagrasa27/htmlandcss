@@ -1,0 +1,33 @@
+html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*display: flex;*/
+    /*flex-flow: column wrap;*/
+    /*justify-content: center;*/
+    align-content: center;
+    height: 800px;
+}
+
+div{
+    display: flex;
+    height: 110px;
+    width: 110px;
+    border: 2px solid black;
+    margin: 5px;
+    outline: 2px dotted blue;
+}
+
+.one{
+    overflow: scroll;
+}
+
+.two{
+    height: 200px;
+    width: 250px;
+    box-sizing:border-box ;
+    margin: 100px auto;
+}

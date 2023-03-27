@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: orange;
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+
+.box {
+    width: 350px;
+    height: 100px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.box1{
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+
+}
+.box2{
+    background-color: royalblue;
+
+}
+.box3{
+    background-color: grey;
+
+}
+

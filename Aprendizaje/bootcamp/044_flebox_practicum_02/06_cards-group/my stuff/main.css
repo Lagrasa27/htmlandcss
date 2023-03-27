@@ -1,0 +1,75 @@
+html,main,body,div,h1,button{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#google{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#fire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+
+
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+
+
+
+}
+
+.water{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+
+
+}
+
+
+.kill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 1.7rem;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.kill:hover{
+    background-color: #A7DBD8;
+}
+
+button:hover{
+    background-color: #A7DBD8;
+}
