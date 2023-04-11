@@ -1,0 +1,21 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #d29ecf;
+    font-size: 60px;
+    text-align: center;
+    margin: 300px auto;
+    padding-top: 55px;
+    box-sizing: border-box;
+    -webkit-transition: transform 1s;
+
+
+
+}
+
+.box:hover{
+    /*transform: translatex(200px);*/
+    /*transform: rotate(360deg);*/
+    transform: scale(1.2, 1.2) translate(-100%, -100%);
+}
