@@ -1,0 +1,41 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #6DC990;
+    border: 2px solid black;
+    position: relative;
+    animation-name: tight;
+    animation-duration:  4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes tight {
+
+    0%{
+        left:0;
+        top:0;
+        background-color: #6DC990;
+    }
+    25%{
+        left:500px;
+        top:0;
+        background-color: #0000FF;
+    }
+    50%{
+        left:500px;
+        top:500px;
+        background-color: #630b8c;
+    }
+    75%{
+        left:0;
+        top:500px;
+        background-color: #FFD700;
+    }
+    100%{
+        left:0;
+        top:0;
+        background-color: #6DC990;
+    }
+
+}
