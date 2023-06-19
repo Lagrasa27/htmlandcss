@@ -81,7 +81,7 @@ body{
     position: fixed;
     width: 40rem;
     height: 100%;
-    background-image: linear-gradient(to top, rgba(34,32,41,1),rgba(34,32,41,.4)) ,url("../image for projects/header-grand-velas-los-cabos-MXALLINC0222-46d3772ad56f4493a83e1bcb49e119f9.jpg");
+    background-image: linear-gradient(to top, rgba(34,32,41,1),rgba(34,32,41,.4)) ,url("../046_Hotel/image for projects/news-events-img-1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,7 +230,7 @@ body{
 .header{
     margin-left: 8rem;
     height: 100vh;
-    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.5)), url("../image for projects/header-1!.jpeg") center no-repeat;
+    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.5)), url("../046_Hotel/image%20for%20projects/header-1!.jpeg") center no-repeat;
     background-size: cover;
 
 }
