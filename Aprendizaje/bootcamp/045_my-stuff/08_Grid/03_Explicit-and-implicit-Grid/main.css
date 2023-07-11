@@ -1,0 +1,24 @@
+.container{
+    width: 600px;
+    background-color: lightgrey;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-auto-flow: column;
+    /*grid-auto-rows: 150px;*/
+    grid-auto-columns: 150px;
+
+    grid-gap: 1rem;
+
+
+
+}
+
+.item{
+    font-size: 2rem;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+
+}
