@@ -1,0 +1,31 @@
+.container{
+    width: 600px;
+    background-color: lightgrey;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    grid-gap: 1rem;
+    justify-items: start;
+    /*when it comens to grid justify content works as moving the content in a row*/
+    align-items: end;
+    /*  when it comes to gird align items works in a way as columns     */
+
+
+
+}
+
+.item{
+    font-size: 2rem;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+
+}
+
+.item-3{
+
+    justify-self: stretch;
+    align-self: stretch;
+/*    justify-self and align-self works for a specific cell that you choose*/
+}
