@@ -13,6 +13,38 @@
 </head>
 <body>
 
+    <!-- modal box   -->
+
+    <input type="checkbox" id="show-hide-forms" hidden="">
+    <div class="forms-wrapper">
+        <label for="show-hide-forms" class="x-btn">&#10005;</label>
+        <input type="checkbox" id="show-form" hidden="">
+        <div class="show-btns-wrapper">
+            <label for="show-form" class="show-form-btn show-signup-form"> Sing up</label>
+            <label for="show-form" class="show-form-btn show-login-form">Log in</label>
+
+        </div>
+        <form class="signup-form">
+            <h3 class="from-heading">Sign up</h3>
+            <div class="fullname-inputs-wrapper">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Second Name">
+            </div>
+            <input type="text" class="form-input" placeholder="Username">
+            <input type="text" class="form-input" placeholder="Email Address">
+            <input type="text" class="form-input" placeholder="password">
+            <input type="submit" value="SIGN UP" class="form-btn">
+        </form>
+        <form class="login-form">
+            <h3 class="from-heading">Log In</h3>
+            <input type="text" class="form-input" placeholder="Email Address">
+            <input type="text" class="form-input" placeholder="password">
+            <input type="submit" value="LOG IN" class="form-btn">
+        </form>
+
+    </div>
+    <!--end of  modal box   -->
+
     <div class="container">
         <!--        start navbar-->
         <ul class="social-icons">
@@ -36,7 +68,7 @@
         <nav class="first-nav">
             <ul class="first-nav-list">
                 <li class="first-nav-item">
-                    <a href="#" class="first-nav-link"><i class="fas fa-sign-in-alt"></i>Sign UP / Log In </a>
+                    <a href="#" class="first-nav-link"><label for="show-hide-forms"><i class="fas fa-sign-in-alt"></i>Sign UP / Log In </label></a>
                 </li>
                 <li class="first-nav-item">
                     <a href="#" class="first-nav-link"><i class="fas fa-shopping-cart"></i>cart (<span>2 item</span>)</a>
@@ -231,6 +263,44 @@
 
 
         <!-- end of bestselling furniture-->
+        <!--  gallery      -->
+
+        <section class="gallery">
+            <img src="01_img-for-proyect/gallery-img-1.jpeg" class="gallery-img gallery-img-1">
+            <img src="01_img-for-proyect/gallery-img-2.jpeg" class="gallery-img gallery-img-2">
+            <img src="01_img-for-proyect/gallery-img-3.jpeg" class="gallery-img gallery-img-3">
+            <img src="01_img-for-proyect/gallery-img-4.jpeg" class="gallery-img gallery-img-4">
+            <img src="01_img-for-proyect/gallery-img-5.jpeg" class="gallery-img gallery-img-5">
+            <img src="01_img-for-proyect/gallery-img-6.jpeg" class="gallery-img gallery-img-6">
+            <img src="01_img-for-proyect/gallery-img-7.jpeg" class="gallery-img gallery-img-7">
+            <img src="01_img-for-proyect/gallery-img-8.jpeg" class="gallery-img gallery-img-8">
+            <img src="01_img-for-proyect/gallery-img-9.jpeg" class="gallery-img gallery-img-9">
+            <img src="01_img-for-proyect/gallery-img-10.jpeg" class="gallery-img gallery-img-10">
+            <img src="01_img-for-proyect/gallery-img-11.jpeg" class="gallery-img gallery-img-11">
+            <img src="01_img-for-proyect/gallery-img-12.jpeg" class="gallery-img gallery-img-12">
+        </section>
+
+        <!--  en of gallery      -->
+
+        <!--contact-->
+            
+        <section class="contact">
+            <h1 class="contact-heading">Join us and be in the know</h1>
+            <form class="contact-form">
+                <input type="text" class="contact-input" placeholder="Enter email address">
+                <input type="submit" class="contact-btn" value="Sign up">
+            </form>
+        </section>
+        
+        <!--end of contact-->
+
+        <!--  footer       -->
+
+        <footer class="footer">
+            <p>&copy; CodeAndcreate. All rights Reserved</p>
+        </footer>
+        <!--  end of footer       -->
+
 
     </div>
 </body>
