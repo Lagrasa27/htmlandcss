@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JS-Course/.idea/JS-Course.iml" filepath="$PROJECT_DIR$/../JS-Course/.idea/JS-Course.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bootcamp.iml" filepath="$PROJECT_DIR$/.idea/bootcamp.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../html-css-bootcamp-master/.idea/html-css-bootcamp-master.iml" filepath="$PROJECT_DIR$/../../../html-css-bootcamp-master/.idea/html-css-bootcamp-master.iml" />
     </modules>

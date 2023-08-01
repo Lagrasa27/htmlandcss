@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="html-css-bootcamp-master" />
+    <orderEntry type="module" module-name="JS-Course" />
   </component>
 </module>
