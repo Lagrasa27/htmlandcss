@@ -15,6 +15,16 @@ var nonValue;
 let age =  45;
 
 
+// more variable.
+
+age = 30;
+
+// if i want to update the variable let is not longer need it
+
+
+// camalle case always star with capital
+
+//exampble myAge
 
 // console.log('printing the value of the variable')
 console.log(firstname+age);
