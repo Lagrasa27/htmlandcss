@@ -10,7 +10,10 @@ let email = 'Kenmario@setsuna.com';
 
 // let result = email.replace('m', 'p') replace a character and if has the same letter it replace the first one
 
+let key = 'llave maestra'
 
+let masterkey = key;
+console.log(masterkey.toUpperCase())
 
 // console.log(result)
 
