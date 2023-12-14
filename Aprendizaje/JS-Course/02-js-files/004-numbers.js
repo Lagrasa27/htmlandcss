@@ -18,9 +18,9 @@ console.log(10/2);
 // let likes = 10;
 
 // like = likes +1;  like value is 10 + 1 = 11
-// likes++; ++ is the same result 11
-// likes--;
-// likes +=10;
+// likes++; ++ is the same result 11 and also ++ is to add one in a shorter way
+// likes--; and this one subtract one
+// likes +=10; this one takes the first value and add the second one 
 // likes-=5;
 // likes*=2;
 // likes /=2;
