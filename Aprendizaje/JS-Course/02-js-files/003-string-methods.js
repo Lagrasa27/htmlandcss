@@ -41,3 +41,11 @@ let html = `
 <span> This blog has ${likes} </span>`;
 
 console.log(html);
+
+
+const diddy = 'master key';
+const ken   = 'ruy';
+const fiora     ='ulti of fiora';
+
+let  leage = `this is the ${diddy} made by ${ken} was the creation of ${fiora}`;
+console.log(leage);
