@@ -10,7 +10,7 @@ let age = 25;
 // strict comparison  (different types cannot be equal)
 
 console.log(age === 25);
-console.log(age === '25'); // this time is falso because witha triple equal is also evaluate the type as well
+console.log(age === '25'); // this time is false because with a triple equal is also evaluate the type as well
 console.log(age !== 25);
 console.log(age !== '25');
 
