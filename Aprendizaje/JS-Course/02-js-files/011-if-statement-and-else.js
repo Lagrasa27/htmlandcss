@@ -28,5 +28,15 @@ if (password.length >= 12 ){
     console.log('password is not long enough')
 
 }
+// example  || meas or and && means AND
 
+const ken = 'ruy and blanca'
+
+if (ken.length >= 12 && ken.includes('k')){
+    console.log('this is ken master');
+} else if (ken.length >= 8 || ken.includes('k') ){
+    console.log('ruy and ken');
+}else {
+    console.log('game over');
+}
 
