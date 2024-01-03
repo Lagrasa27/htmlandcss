@@ -28,3 +28,23 @@ switch (driver){
 
 
 
+let age = 55;
+
+if (true){
+    let age = 60;
+    console.log(' first scope', age);
+
+if (true){
+    let age = 75;
+    console.log( 'second scope', age)
+}
+}
+
+console.log('global scope', age);
+
+
+const job = function (){
+    console.log('good day')
+}
+
+job()
