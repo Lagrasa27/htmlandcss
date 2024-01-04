@@ -27,7 +27,8 @@ switch (driver){
 }
 
 
-
+/*difference between local scope and globla scope  if a variable is not inside of the backet is gobal
+* however if it is inside of the bracket  it is local */
 let age = 55;
 
 if (true){
@@ -43,8 +44,54 @@ if (true){
 console.log('global scope', age);
 
 
+// this is a regular function
 const job = function (){
     console.log('good day')
 }
 
 job()
+
+// in this fuction is not necesary declare a variable in the local bracket such as let area = 3.14
+// just put the return word and that will work.
+const calArea = function (radius){
+    return 3.14 * radius**2
+};
+
+const papi = calArea(5);
+console.log(papi);
+
+
+/* arrow funciton  as long as there only one value only you can remove parentesis  and where it says
+* retur it is no necesary  and the backet has to ve remore to put in a shooter way  const
+calcArea = radius => 3.14 * radius **2* /
+* like the sample above
+ */
+
+const calarea = radius => 3.14 *radius**2 ;
+
+const hijo = calarea(5)
+console.log(hijo);
+
+// another example
+
+// const greet = function (){
+//     return 'hello, world';
+// };
+
+const greet = ()  =>    'hello, world';
+const result = greet();
+console.log(result);
+
+
+// const bill = function (products, tax){
+//     let total = 0;
+//     for (let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax;
+//     };
+//     return total;
+// }
+
+const bill = (products,tax) =>{
+
+}
+
