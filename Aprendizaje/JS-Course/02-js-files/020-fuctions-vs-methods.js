@@ -16,3 +16,5 @@ console.log(resulTwo);
 
 
 // methods are pretty much fuctions however there are invoke slighty differnt
+
+

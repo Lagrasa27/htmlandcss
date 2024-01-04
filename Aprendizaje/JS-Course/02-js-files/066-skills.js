@@ -92,6 +92,17 @@ console.log(result);
 // }
 
 const bill = (products,tax) =>{
+    let total = 0;
+    for (let i = 0; i < products.length; i++){
+        total += products[i] + products[i] * tax;
+    }
+    return total;
+};
 
-}
+let car = ['mercedes', 'audi', 'toyota', 'carmin'];
 
+const deaLer = ( marcas, index) => {
+    console.log(`${index} - estas marcas son buenas ${marcas} `);
+};
+
+car.forEach(deaLer);
