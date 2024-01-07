@@ -12,3 +12,7 @@ gente.forEach(function (personas){
 });
 
 li.innerHTML = html;
+
+dark = function (){
+
+}
