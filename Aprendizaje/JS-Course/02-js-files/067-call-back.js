@@ -14,5 +14,14 @@ gente.forEach(function (personas){
 li.innerHTML = html;
 
 dark = function (){
-
+    console.log('function');
 }
+
+dark();
+
+
+ men = () => {
+    console.log('training');
+};
+
+ men()
