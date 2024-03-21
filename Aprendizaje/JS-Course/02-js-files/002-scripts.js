@@ -30,4 +30,8 @@ console.log(result, fullname)
 let index = email.indexOf('@');
 console.log(index)
 
+let jorge = 'klk con eto';
+
+let joel = jorge.lastIndexOf('n')
+
 //common string methods
