@@ -1,10 +1,10 @@
 //arrays you have to use []
 
-let ninja = ['shaun', 'ryu', 'zangief'];
+// let ninja = ['shaun', 'ryu', 'zangief'];
 // ninja[1] = 'chunli';
 // console.log(ninja[1]);
 
-
+console.log('hello world')
 // let ages   = [20,25,30,35]
 // console.log(ages[2])
 
@@ -27,3 +27,6 @@ let ninja = ['shaun', 'ryu', 'zangief'];
 
 // console.log(ninja);
 
+
+
+console.log(result);
