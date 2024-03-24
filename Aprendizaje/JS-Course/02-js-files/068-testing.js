@@ -7,4 +7,12 @@ let result = ` here ${tittle} we have  a ${author} working and he also has ${lik
 
 console.log(result);
 
+
+
+let magic = ['jason','david','manu']
+let number = ['x-men','jinx','jose']
+
+let joel = magic.concat(number);
+
+console.log(joel);
 // console.log(tittle);

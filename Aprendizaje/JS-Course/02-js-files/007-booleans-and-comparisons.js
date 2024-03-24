@@ -4,6 +4,10 @@ console.log(true, false, 'true', 'false');
 //methods can return booleans
 let email = 'luigi@thenetninja.com.dr';
 let names = ['mario', 'luigi', 'toad'];
+let computer = ['asus', ' dell']
+
+let result = (names,computer);
+console.log(result)
 
 
 // let result = email.includes('@'); // the value return is true becuase the @ symblo it is in the mail
